@@ -22,6 +22,12 @@ def main():
     """
     Main function that runs all other functions. Put used guitar data into
     a pandas dataframe and cleans up some of the data formatting.
+    
+    Args:
+        None.
+    
+    Returns:
+        None.
     """
     
     # Pickle load the scraped electric guitar data (dictionary)
