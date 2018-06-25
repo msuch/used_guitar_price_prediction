@@ -254,7 +254,7 @@ def df_format(df):
     df = df[np.isfinite(df['Model Year'])]
     df = df[np.isfinite(df['Asking'])]
     
-    # Drop rows with final prices < $30 or > $100,000
+    # Drop rows with final prices < $30 or > $40,000
     df = df[df['Final'] > 30] 
     df = df[df['Final'] < 40000]
     
